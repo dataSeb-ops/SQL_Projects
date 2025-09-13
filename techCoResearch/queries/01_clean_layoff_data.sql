@@ -1,4 +1,5 @@
--- Identify any distinctions between identical locations due to abbreviations, etc.
+/*Examine headquarter_location to identify any distinctions between identical locations
+due to abbreviations, etc.*/
 SELECT	DISTINCT headquarter_location
 FROM	tech_layoffs
 ORDER	BY headquarter_location;
