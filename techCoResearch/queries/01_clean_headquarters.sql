@@ -23,3 +23,7 @@ FROM	tech_layoffs
 -- get rid of entries where data is unclear
 WHERE	NOT (total_layoffs = 'Unclear' OR impacted_workforce_percentage = 'Unclear');
 
+SELECT	*
+FROM	cleaned_table
+ORDER	BY headquarter_city DESC;
+
