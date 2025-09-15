@@ -1,4 +1,4 @@
--- AVG PERCENT OF TECH LAYOFFS BY CITY
+-- AVG PERCENT OF LAYOFFS BY CITY
 SELECT	headquarter_city,
 		ROUND(AVG(impacted_workforce_percentage),2) AS avg_percent_impacted
 FROM	cleaned_table

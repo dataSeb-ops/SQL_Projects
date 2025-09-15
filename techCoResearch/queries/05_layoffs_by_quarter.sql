@@ -1,3 +1,4 @@
+-- NUMBER OF LAYOFFS BY QUARTER
 WITH
 layoffs_month_year AS (
 	SELECT	CAST(SUBSTR(reported_date, LENGTH(reported_date) - 3, 4) AS INTEGER) AS year,
