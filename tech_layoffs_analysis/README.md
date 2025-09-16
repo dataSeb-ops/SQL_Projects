@@ -25,7 +25,7 @@ The SQL database was generated using the datasets found at these sources:
 ```
 SQL_Projects/tech_layoffs_analysis/
 │
-├── csv_files/ # contains raw CSV files imported into SQL database
+├── data_raw/ # contains raw CSV files imported into SQL database
 │ └── SOFR.csv # SOFR data from FRED
 │ └── tech_layoffs.csv # layoff data from Kaggle
 │
