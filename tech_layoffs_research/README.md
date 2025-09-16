@@ -20,6 +20,7 @@ Additionally, it explores differences between private and public companies.
 
 ## 🗂 Project Structure
 
+```
 tech-layoffs-sql/
 │
 ├── data/
@@ -41,7 +42,7 @@ tech-layoffs-sql/
 │ └── layoffs_by_ipo.csv
 │
 └── README.md
-
+```
 
 ---
 
