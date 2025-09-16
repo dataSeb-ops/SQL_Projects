@@ -85,7 +85,7 @@ If additional data were available, future analysis could explore:
 1. Download SQLite and DB Browser (or any SQL client).  
 2. Clone this repo:  
    ```bash
-   git clone https://github.com/<your-username>/tech-layoffs-sql.git
+   git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_research
 3. Open tech_layoffs.sqlite in DB Browser.
 4. Run scripts from the queries/ folder to reproduce results.
 
