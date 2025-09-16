@@ -1,1 +1,5 @@
 .DS_Store
+*.db-journal
+/tech_layoffs_research/queries/archive
+tech_layoffs_research/.DS_Store
+tech_layoffs_research/queries/.DS_Store
