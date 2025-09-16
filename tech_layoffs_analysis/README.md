@@ -1,4 +1,4 @@
-# Tech Layoffs SQL Analysis (2022–2023)
+# SQL Tech Layoffs Analysis (2022–2023)
 
 This project analyzes technology sector layoffs during 2022–2023 using SQL.  
 The analysis focuses on geographic trends, time-based trends, and correlations with macroeconomic factors like interest rates.  
