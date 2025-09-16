@@ -7,7 +7,7 @@ FROM	tech_layoffs
 ORDER	BY headquarter_location;
 
 -- CLEANING
-CREATE	VIEW cleaned_table AS
+CREATE	VIEW layoffs_cleaned AS
 SELECT	company, CAST(total_layoffs AS INTEGER) AS total_layoffs,
 		impacted_workforce_percentage, reported_date, industry,
 		CASE
@@ -26,5 +26,5 @@ FROM	tech_layoffs
 WHERE	NOT (total_layoffs = 'Unclear' OR impacted_workforce_percentage = 'Unclear');
 
 SELECT	*
-FROM	cleaned_table
+FROM	layoffs_cleaned
 ORDER	BY headquarter_city DESC;
