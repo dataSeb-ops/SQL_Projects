@@ -102,11 +102,11 @@ If additional data were available, future analysis could explore:
    ```bash
    git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_analysis.git
 3. If using DB Browser:
-   - Open tech_layoffs.sqbpro
-   - This contains the database and all queries
+- Open tech_layoffs.sqbpro
+- This contains the database and all queries
 4. Otherwise
-   - Load the database tech_layoffs.db
-   - Run scripts from the queries/ folder to reproduce results.
+- Load the database tech_layoffs.db
+- Run scripts from the queries/ folder to reproduce results.
 
 ---
 
