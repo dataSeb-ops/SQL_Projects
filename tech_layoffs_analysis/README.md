@@ -109,7 +109,7 @@ If additional data were available, future analysis could explore:
    - This contains the database and all queries
 4. Otherwise
    - Load the database tech_layoffs.db
-   - Run scripts from the queries/ folder to reproduce results.
+   - Run scripts from the queries/ directory to reproduce results.
 
 ---
 
