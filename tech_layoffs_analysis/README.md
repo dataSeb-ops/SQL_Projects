@@ -8,6 +8,8 @@ Additionally, it explores differences between private and public companies.
 
 ## 📊 Dataset Sources
 
+The SQL database was generated using the datasets found at these sources:
+
 - **Tech Layoffs Data (Kaggle):**  
   [Technology Company Layoffs 2022–2023](https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data)  
   Includes company names, headquarters, total layoffs, workforce size, dates, and IPO status.
@@ -23,7 +25,7 @@ Additionally, it explores differences between private and public companies.
 ```
 SQL_Projects/tech_layoffs_analysis/
 │
-├── csv_files/ # contains raw CSV files imported into SQL data base
+├── csv_files/ # contains raw CSV files imported into SQL database
 │ └── SOFR.csv # SOFR data from FRED
 │ └── tech_layoffs.csv # layoff data from Kaggle
 │
