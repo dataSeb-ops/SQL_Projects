@@ -17,7 +17,7 @@ This repo is a portfolio showcase of my SQL skills, demonstrating:
 
 ## Projects
 
-### [Tech Layoffs Analysis (2022–2023)](./tech-layoffs-research)
+### [Tech Layoffs Analysis (2022–2023)](./tech_layoffs_research)
 **Dataset Sources:**  
 - [Technology Company Layoffs 2022–2023 (Kaggle)](https://www.kaggle.com/datasets/salimwid/technology-company-layoffs-20222023-data)  
 - [SOFR Interest Rate Data (FRED)](https://fred.stlouisfed.org/series/SOFR)  
