@@ -52,7 +52,11 @@ SQL_Projects/tech_layoffs_analysis/
 │ ├── layoffs_by_quarter.png
 │ └── layoffs_vs_interestRates.png
 │
+├── tech_layoffs.db     # database file used for analysis
+├── tech_layoffs.sqbpro # DB Browser project file
 └── README.md
+
+
 ```
 
 ---
@@ -74,10 +78,10 @@ SQL_Projects/tech_layoffs_analysis/
 
 ## 📈 Key Findings
 
-- **Geography:** Layoffs were heavily concentrated in major hubs like San Francisco, New York, and Seattle.  
+- **Geography:** Layoffs were heavily concentrated in major tech hubs like San Francisco, New York, and Seattle.  
 - **Time Trends:** Layoffs spiked in late 2022 and remained high through 2023 Q1.  
 - **Interest Rates:** Increases in SOFR rates appeared to coincide with higher layoff activity, though causation cannot be proven without more data.  
-- **IPO Status:** Both private and public companies were affected, but public companies tended to report larger layoffs in absolute numbers.  
+- **IPO Status:** More private companies report layoffs, but public companies tended to report larger layoffs in absolute numbers.  
 
 ---
 
@@ -93,12 +97,16 @@ If additional data were available, future analysis could explore:
 
 ## ▶️ How to Reproduce
 
-1. Download SQLite and DB Browser (or any SQL client).  
+1. Download any SQL client (I use DB Browser for SQLite).  
 2. Clone this repo:  
    ```bash
    git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_analysis.git
-3. Open tech_layoffs.sqlite in DB Browser.
-4. Run scripts from the queries/ folder to reproduce results.
+3. If using DB Browser:
+   - Open tech_layoffs.sqbpro
+   - This contains the database and all queries
+4. Otherwise
+   - Load the database tech_layoffs.db
+   - Run scripts from the queries/ folder to reproduce results.
 
 ---
 
