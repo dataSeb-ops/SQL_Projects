@@ -81,7 +81,7 @@ SQL_Projects/tech_layoffs_analysis/
 - **Geography:** Layoffs were heavily concentrated in major tech hubs like San Francisco, New York, and Seattle.  
 - **Time Trends:** Layoffs spiked in late 2022 and remained high through 2023 Q1.  
 - **Interest Rates:** Increases in SOFR rates appeared to coincide with higher layoff activity, though causation cannot be proven without more data.  
-- **IPO Status:** More private companies report layoffs, but public companies tended to report larger layoffs in absolute numbers.  
+- **IPO Status:** More private companies report layoffs, but public companies tended to report layoffs in larger numbers.  
 
 ---
 
