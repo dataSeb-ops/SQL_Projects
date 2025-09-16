@@ -21,25 +21,36 @@ Additionally, it explores differences between private and public companies.
 ## 🗂 Project Structure
 
 ```
-tech-layoffs-sql/
+SQL_Projects/tech_layoffs_analysis/
 │
-├── data/
-│ └── tech_layoffs.sqlite # SQLite database with cleaned layoffs + SOFR data
+├── csv_files/ # contains raw CSV files imported into SQL data base
+│ └── SOFR.csv # SOFR data from FRED
+│ └── tech_layoffs.csv # layoff data from Kaggle
 │
 ├── queries/ # SQL scripts
-│ ├── 01_clean_headquarters.sql
-│ ├── 02_result_layoffs_by_city.sql
-│ ├── 03_result_avg_layoffs_by_city.sql
-│ ├── 04_result_percent_impact_by_city.sql
-│ ├── 05_layoffs_by_quarter.sql
-│ ├── 06_layoffs_vs_interest.sql
-│ └── 07_layoffs_by_ipo_status.sql
+│ ├── 01_prep_layoff_data.sql              # clean layoff data and create view
+│ ├── 02_result_layoffs_by_city.sql        # total number of layoffs by city
+│ ├── 03_result_avg_layoffs_by_city.sql    # avg number of layoffs per company by city
+│ ├── 04_result_percent_impact_by_city.sql # avg percent of company workforce impacted by city
+│ ├── 05_prep_layoffs_monthly.sql          # create view to examine montly/quarterly layoffs
+│ ├── 06_result_layoffs_by_quarter.sql     # quarterly layoffs
+│ ├── 07_prep_SOFR_monthly.sql             # clean SOFR data and create view
+│ ├── 08_result_layoffs_vs_interest_rates.sql     # monthly layoffs vs interest rates
+│ └── 09_result_layoffs_by_IPOstatus.sql   # number of companies with layoffs by IPO status
 │
-├── results/
-│ ├── layoffs_by_city.csv
-│ ├── layoffs_by_quarter.csv
-│ ├── layoffs_vs_interest.csv
-│ └── layoffs_by_ipo.csv
+├── results/ # SQL results
+│ ├── avg_layoffs_by_city.csv      # avg number of layoffs per company by city
+│ ├── avg_pct_impacted_by_city.csv # avg percent of company workforce impacted by city
+│ ├── layoffs_by_city.csv          # total number of layoffs by city
+│ ├── layoffs_by_IPOstatus.csv     # number of public vs private companies with layoffs
+│ ├── layoffs_by_quarter.csv       # total quarterly layoffs
+│ ├── layoffs_vs_interestRate.csv  # comparison of monthly layoffs vs interest rates
+│ └── tech_layoffs_results.xlsx    # all results
+│
+├── visuals/ # data visualizations
+│ ├── layoffs_by_city.png
+│ ├── layoffs_by_quarter.png
+│ └── layoffs_vs_interestRates.png
 │
 └── README.md
 ```
@@ -85,7 +96,7 @@ If additional data were available, future analysis could explore:
 1. Download SQLite and DB Browser (or any SQL client).  
 2. Clone this repo:  
    ```bash
-   git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_research
+   git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_analysis.git
 3. Open tech_layoffs.sqlite in DB Browser.
 4. Run scripts from the queries/ folder to reproduce results.
 
