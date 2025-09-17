@@ -9,7 +9,7 @@ SOFR_year_months AS (
 			CAST(substr(observation_date, 1, instr(observation_date, '/') - 1) AS INTEGER) AS month,
 			SOFR_data AS interest_rate
 	FROM	SOFR
-	WHERE	NOT SOFR_data IS NULL
+	WHERE	SOFR_data IS NOT NULL
 )
 
 -- get monthly average interest_rate
