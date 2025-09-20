@@ -114,5 +114,5 @@ If additional data were available, future analysis could explore:
 ---
 
 📎 License
-Dataset is provided by Kaggle and FRED. Analysis scripts © 2025 Briana Bryant.
+Dataset is provided by Kaggle and FRED. Analysis scripts © 2025 Briana Sebastian.
 
