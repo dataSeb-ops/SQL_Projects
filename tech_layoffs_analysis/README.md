@@ -103,7 +103,9 @@ If additional data were available, future analysis could explore:
 1. Download any SQL client (I use DB Browser for SQLite).  
 2. Clone this repo:  
    ```bash
-   git clone https://github.com/dataSeb-ops/SQL_Projects/tech_layoffs_analysis.git
+   git clone https://github.com/dataSeb-ops/SQL_Projects.git
+   cd tech_layoffs_analysis
+   
 3. If using DB Browser:
    - Open tech_layoffs.sqbpro
    - This contains the database and all queries
