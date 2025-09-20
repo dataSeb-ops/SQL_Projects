@@ -101,10 +101,10 @@ If additional data were available, future analysis could explore:
 ## ▶️ How to Reproduce
 
 1. Download any SQL client (I use DB Browser for SQLite).  
-2. Clone this repo:  
+2. Clone this repo and locate the corresponding subfolder:  
    ```bash
    git clone https://github.com/dataSeb-ops/SQL_Projects.git
-   cd tech_layoffs_analysis
+   cd SQL_Projects/tech_layoffs_analysis
    
 3. If using DB Browser:
    - Open tech_layoffs.sqbpro
